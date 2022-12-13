@@ -56,6 +56,10 @@ pattern = "**/{*.js,*.jsx,*.ts,*.tsx,*.mjs,*.cjs}"
   [languages.javascript.languageServer]
   start = ["typescript-language-server", "--stdio"]
 
+[auth]
+pageEnabled = false
+buttonEnabled = true
+
 
 # Commenting out css LSP for now
 # because it conflicts with emmet
